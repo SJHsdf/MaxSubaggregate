@@ -1,10 +1,10 @@
 #include<stdio.h>
-int de;
-int dq;
+int de;//最终结果
+int dq;//暂存结果
 void main()
 {
-	int cun;
-	char x;
+	int cun;//输入数据
+	char x;//结束标识符
 	dq = 0;
 	de = 0;
 	while (1)
@@ -19,5 +19,5 @@ void main()
 		if (x == '*')
 			break;
 	}
-	printf("\n%d", de);
+	printf("\n%d", de);//输出结果
 }
